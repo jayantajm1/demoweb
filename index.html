@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,700&display=swap" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
 </head>
 <body>
@@ -16,8 +17,8 @@
 <nav>
     <h1> JMJelly University </h1>
     <a href="index.html"><img src="images/logo.png" alt=""</a>
-    <div class="nav-links">
-        <i class="fa fa-times"></i>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -27,7 +28,7 @@
             
         </ul>
     </div>
-    <i class="fa fa-bars"></i>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
 </nav>
 <div class="text-box"> 
 <h1> World's Bigest University</h1>
@@ -42,7 +43,72 @@ You don’t need a fancy designer or an expensive developer.
 <a href="" class="hero-btn"> Visit us to know more</a>
 </div>
     </section>
+    <!--Course-->
+    <section class="course">
+        <h1> Course We Offer</h1>
+        <p> bal chhal chholar dal khanki chhele</p>
+        
+        <div class="row">
+            <div class="course-col">
+           <h3> Intermediate</h3>
+           <p> 
+            Loeo jajb gce jjak lai kha kjkjsbkjbs hhbsb
+            jskdhjs uh jshhs
+            hskj bjbjkdn njbd
+            iudgigikbadskn
+            bhbsbibikii udiighvbds
+            shijoai idij idihdb sdiuai aiiioah ewunaiooaosbMS jgsjbsbkjb wuhwsb sdhusu aiahsb asdgjbk aswvsjh
+           </p> 
+        </div>
+        <div class="row">
+            <div class="course-col">
+           <h3> Degree</h3>
+           <p> 
+            Loeo jajb gce jjak lai kha kjkjsbkjbs hhbsb
+            jskdhjs uh jshhs
+            hskj bjbjkdn njbd
+            iudgigikbadskn
+            bhbsbibikii udiighvbds
+            shijoai idij idihdb sdiuai aiiioah ewunaiooaosbMS jgsjbsbkjb wuhwsb sdhusu aiahsb asdgjbk aswvsjh
+           </p> 
+        </div>
+        <div class="row">
+            <div class="course-col">
+           <h3> Post Graduation</h3>
+           <p> 
+            Loeo jajb gce jjak lai kha kjkjsbkjbs hhbsb
+            jskdhjs uh jshhs
+            hskj bjbjkdn njbd
+            iudgigikbadskn
+            bhbsbibikii udiighvbds
+            shijoai idij idihdb sdiuai aiiioah ewunaiooaosbMS jgsjbsbkjb wuhwsb sdhusu aiahsb asdgjbk aswvsjh
+           </p> 
+        </div>
+        </div>
 
-    
+    </section>
+    <!--campus-->
+    <section class="campus">
+        <h1>
+            Our Global Campus</h1>
+            <p>
+                Loeo jajb gce jjak lai kha kjkjsbkjbs hhbsb
+            jskdhjs uh jshhs
+            hskj bjbjkdn njbd
+            iudgigikbadskn
+            bhbsbibikii udiighvbds
+            shijoai idij idihdb sdiuai aiiioah ewunaiooaosbMS jgsjbsbkjb wuhwsb sdhusu aiahsb asdgjbk aswvsjh
+            </p>
+    </section>
+    <!--Javascript for toggle the menu bar-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
 </body>
 </html>
