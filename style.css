@@ -147,6 +147,7 @@ p{
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
+    padding-left: 5%;
     box-sizing: border-box;
     position: relative;
 }
@@ -160,6 +161,7 @@ h3{
     font-weight: 600;
     margin: 10px;
     position: relative;
+   /*padding-block: relative;*/
 }
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
