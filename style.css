@@ -140,6 +140,7 @@ p{
    display: flex;
    align-items: center;
    justify-content: space-between;
+   
 }
 .course-col{
     flex-basis: 31%;
